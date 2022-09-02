@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(10, 34, 57)
+}
+
+section {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imagem-perfume {
+    width: 50%;
+    vertical-align: bottom;
+
+}
+
+.imagem-mobile {
+    display: none;
+}
+
+.conteudo {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 28px;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.0;
+    margin-bottom: 25px;
+    color: hsla(212, 21%, 14%, 0.9);
+    
+}
+
+.descricao-perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 22px;
+    opacity: 0.8;
+    margin: 0 0 15%;
+    margin-bottom: 25px;
+
+}
+
+.preco-cheio {
+    color: rgb(10, 34, 57);
+    display: inline;
+    text-align: top;
+    margin-right: 20px;
+    
+
+}
+
+.preco-riscado {
+    display: inline;
+    vertical-align: top;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    line-height: 2;
+}
+
+button {
+    width: 100%;
+    margin: 15px auto;
+    margin-top: 25px;
+    background: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 18px 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background: hsl(158, 35%, 30%);
+
+}
+
+svg {
+    display: inline;
+    vertical-align: top;
+    width: 23px;   
+}
+
+@media screen and (max-width: 375px) {
+    section {
+        width: 92%;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        height: 670px;
+        margin: 25px 4%;
+
+    }
+
+    .imagem-perfume {
+        display: none;
+    }
+
+    .imagem-mobile {
+        display: block;
+        width: 100%;
+        
+    }
+
+    .conteudo {
+        width: 85%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    
+
+
+    
+
+
+
+
+}
+
+
+
+
+
